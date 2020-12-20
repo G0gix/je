@@ -1,8 +1,9 @@
 
 $(document).ready(function() {
     $('.buutton').click(function (event) {
-        $('.img').toggleClass('active');
         $('.zassannaya').removeClass('active');
+        $('.img').toggleClass('active');
+        
     });
 });
 $(document).ready(function() {
