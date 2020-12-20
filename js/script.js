@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     $('.buutton').click(function (event) {
-        $('.zassannaya').removeClass('active');
+        $('.zassannaya').removeClass('active'),
         $('.img').toggleClass('active');
         
     });
