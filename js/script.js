@@ -2,6 +2,7 @@
 $(document).ready(function() {
     $('.buutton').click(function (event) {
         $('.img').toggleClass('active');
+        $('.zassannaya').removeClass('active');
     });
 });
 $(document).ready(function() {
